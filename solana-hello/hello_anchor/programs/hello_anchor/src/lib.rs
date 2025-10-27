@@ -6,11 +6,12 @@ declare_id!("9YDkRRJy3steKyuXUSzo8piqVSr35onPV6hBkpk5Td3R");
 pub mod hello_anchor {
     use super::*;
 
-    pub fn say_hello(ctx: Context<Hello>) -> Result<()> {
+    pub fn initialize(ctx: Context<Initialize>) -> Result<()> {
         msg!("Hello, Solana!");
         Ok(())
     }
 }
 
 #[derive(Accounts)]
-pub struct Hello {}
+pub struct Initialize {}
+ 
