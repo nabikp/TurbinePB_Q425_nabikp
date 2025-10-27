@@ -3,3 +3,8 @@ transaction hash:
 
 address:
 BQtupkxZLXxbxNuf1N2LT9cbVBBnErjKQV3GzDWDrsj
+
+
+image is in the file screenshot.png inside spl-token-mint folder
+
+
