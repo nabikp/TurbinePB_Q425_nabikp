@@ -1,0 +1,22 @@
+# Ignore Solana CLI keys (if created later)
+id.json
+*.json
+!metadata.json   # keep metadata.json (the ! means don't ignore this file)
+.solana/
+.config/
+.cache/
+keypair.json
+wallet.json
+
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# TypeScript build files
+dist/
+build/
+
+# Logs and environment files
+.env
+*.log
+.DS_Store
